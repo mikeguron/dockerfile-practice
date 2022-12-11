@@ -21,3 +21,4 @@ RUN mamba install --quiet --yes \
 # Install Pandas
 RUN conda install -c conda-forge --quiet --yes \
     'pandas==1.4.*' \
+    'altair_saver==0.1.*' \
